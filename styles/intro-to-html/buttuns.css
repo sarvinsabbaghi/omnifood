@@ -1,0 +1,118 @@
+ .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        vertical-align:top;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
+
+    .subscribe-button:hover {
+        opacity: 0.8;
+    }
+
+    .subscribe-button:active{
+        opacity: 0.5;
+    }
+
+    .join-button {
+        background-color: white;
+        border-color: rgb(41, 106, 203);
+        border-style: solid;
+        border-width: 1px;
+        color:  rgb(41, 106, 203); 
+        height: 36px;
+        width: 62px;
+        border-radius: 2px ;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s , color 0.15s; 
+         padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px; 
+        vertical-align: top;  
+ 
+    }
+
+    .join-button:hover{
+        background-color: rgb(41, 106, 203);
+        color: white;
+    }
+
+    .join-button:active{
+        opacity: 0.7;
+    }
+
+    .tweet-button{
+        background-color: rgb(9, 143, 245);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadows 0.15s;
+        vertical-align: top;
+    }
+
+    .tweet-button:hover{
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+    }
+
+    .sarvin-button{
+        background-color: rgb(252, 124, 197);
+        color: white;
+        border: none;
+        font-size: 20px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 9px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition:  padding-top 0.45s,
+        padding-bottom 0.45s,
+        padding-left 0.45s,
+        padding-right 0.45s;
+    }
+
+    .sarvin-button:hover{
+
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+
+    .lumine-button{
+        background-color: pink;
+        color: white;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+        border-radius: 3px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+    .lumine-button:active{
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
+    }
